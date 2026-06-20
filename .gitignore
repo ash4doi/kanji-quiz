@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+*.log
+CLAUDE.md
+design_notes.md
