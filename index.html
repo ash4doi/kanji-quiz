@@ -117,6 +117,7 @@
       <div class="opts" id="gradeOpts">
         <button class="opt on" data-grade="1">1ねん</button>
         <button class="opt" data-grade="2">2ねん</button>
+        <button class="opt" data-grade="3">3ねん</button>
       </div>
       <p class="label" style="margin-top:18px">もんだいの かず</p>
       <div class="opts" id="sizeOpts">
@@ -187,7 +188,7 @@ let grade = "1";                  // 選択中の学年
 let ALL = [];
 
 // 学年ごとのCSVファイル。学年を増やすときはここに1行足すだけ。
-const GRADE_CSV = { "1": "kanji_g1.csv", "2": "kanji_g2.csv" };
+const GRADE_CSV = { "1": "kanji_g1.csv", "2": "kanji_g2.csv", "3": "kanji_g3.csv" };
 
 // CSV1行をフィールド配列へ（"…" で囲まれたセルや "" エスケープに対応）
 function splitCSVLine(line){
